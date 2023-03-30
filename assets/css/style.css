@@ -3,3 +3,10 @@
 body {
   font-family: 'Open Sans', sans-serif;
 }
+
+@media(max-width: 720px) {
+    
+  .heroimg {
+    display: none !important;
+  }
+}
