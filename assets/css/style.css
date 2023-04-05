@@ -1,9 +1,90 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
+
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;  
 }
 
+h1,h2,h3,h4,h5,h6,a{
+  color: #041735;
+  font-family: 'Cabin', sans-serif;
+}
+
+.card-1{
+  background-color: #f0f3ff;
+}
+
+.card-1:hover{
+  background-color: #e9fffd;
+  transition: 1s ease-in;
+}
+.card-2{
+  background-color: #fff3f2;
+}
+.card-2:hover{
+  background-color: #e9fffd;
+  transition: 1s ease-in;
+}
+.card-3{
+  background-color: #e9fffd;
+}
+
+.yo {
+  display: inline;
+  margin: 0 auto 20px 0;
+}
+
+#buttonedit{
+  transition: 0.3s !important;
+  font-size: 0.938rem !important;
+  padding: 1.313rem 1.125rem !important;
+}
+
+#buttonedit:hover{
+  background-color: #041735 !important;
+  color: #2845ba !important;
+  border: 1px solid #2845ba !important;
+}
+
+.buttonedit2{
+  transition: 0.3s !important;
+  font-size: 15px !important;
+  padding: 1.312rem 1.125rem !important;
+}
+
+.buttonedit2:hover{
+  background-color: white!important;
+  color: #041735 !important;
+  border: 1px solid #041735 !important;
+}
+
+.midm-b{
+  margin-bottom: 3.75rem;
+}
+.bigp-t{
+  padding-top: 7.5em !important;  
+}
+.bigp-b{
+  padding-bottom: 7.5em !important;  
+}
+.midp-t{
+  padding-top: 3.75rem !important;  
+}
+.midp-b{
+  padding-bottom: 3.75rem !important;  
+}
+
+.midp-up{
+  padding: 5rem 0;
+}
+
+.yokoso{
+  padding: 20px 10px 21px 34px !important;
+  font-weight: 600 !important;
+  font-size: 1.25rem !important;
+}
+    
 @media(max-width: 720px) {
     
   .heroimg {
