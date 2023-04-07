@@ -9,6 +9,7 @@ body {
 h1,h2,h3,h4,h5,h6,a{
   color: #041735;
   font-family: 'Cabin', sans-serif;
+  font-weight: 600;
 }
 
 .card-1{
@@ -62,12 +63,6 @@ h1,h2,h3,h4,h5,h6,a{
 .midm-b{
   margin-bottom: 3.75rem;
 }
-.bigp-t{
-  padding-top: 7.5em !important;  
-}
-.bigp-b{
-  padding-bottom: 7.5em !important;  
-}
 .midp-t{
   padding-top: 3.75rem !important;  
 }
@@ -84,10 +79,44 @@ h1,h2,h3,h4,h5,h6,a{
   font-weight: 600 !important;
   font-size: 1.25rem !important;
 }
+.down{
+  margin-bottom: 8px !important;
+}
     
-@media(max-width: 720px) {
-    
-  .heroimg {
+
+@media (max-width: 567px) {
+  .secud{
+    padding: 70px 0;
+  }
+  .secd{
+    padding-bottom: 70px;
+  }
+  .secu{
+    padding-top: 70px;
+  }
+  .reduceh2{
+    font-size: 24px !important;
+  }
+  .subi{
+    font-size: 18px !important;
+  }
+  .edith1{
+    font-size: 34px !important;
+  }
+}
+
+
+@media(max-width: 768px) {    
+  .nodisplay {
     display: none !important;
+  }
+}
+
+@media(min-width: 992px) {
+  .bigp-t{
+    padding-top: 7.5em !important;  
+  }
+  .bigp-b{
+    padding-bottom: 7.5em !important;  
   }
 }
