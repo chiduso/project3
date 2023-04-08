@@ -18,14 +18,14 @@ h1,h2,h3,h4,h5,h6,a{
 
 .card-1:hover{
   background-color: #e9fffd;
-  transition: 1s ease-in;
+  transition: .5s ease-in-out;
 }
 .card-2{
   background-color: #fff3f2;
 }
 .card-2:hover{
   background-color: #e9fffd;
-  transition: 1s ease-in;
+  transition: .5s ease-in-out;
 }
 .card-3{
   background-color: #e9fffd;
@@ -36,6 +36,14 @@ h1,h2,h3,h4,h5,h6,a{
   margin: 0 auto 20px 0;
 }
 
+.choi {
+  font-weight: 600 !important;  
+}
+
+.yo1{
+  font-size: 20px !important;
+  padding: 30px 20px 30px 40px !important;
+}
 #buttonedit{
   transition: 0.3s !important;
   font-size: 0.938rem !important;
@@ -83,7 +91,68 @@ h1,h2,h3,h4,h5,h6,a{
   margin-bottom: 8px !important;
 }
     
+.icon{
+  margin-bottom: 50px !important;
+}
 
+.cardbody-edit{
+  padding: 60px 20px !important;
+}
+.formedit{
+  padding: 9px 33px 9px 24px !important;
+}
+
+.comic-border {
+  background-color: white;
+  border: 1px solid #f0f3ff;
+  border-radius: 10px;
+  position: relative;  
+}
+
+.comic-border::before {
+  content: "";
+  position: absolute;
+  bottom: -25px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 25px 25px 0;
+  border-color: transparent #f0f3ff transparent transparent;
+}
+
+/* .lol{
+  background-image: url("../img/Untitled-3.png");
+  display: flex;
+  align-items: flex-end;
+  padding: 3rem;
+  flex-direction: column;
+  background-color: rgba(24, 23, 23, 0.119);
+  position: relative;
+}
+.lol2{
+  background-image: url("../img/Untitled-2.png");
+  display: flex;
+  align-items: flex-end;
+  padding: 3rem;
+  flex-direction: column;
+  background-color: rgba(24, 23, 23, 0.119);
+  position: relative;
+}
+.lol3{
+  background-image: url("../img/Untitled-1.png");
+  background-size: contain;
+  display: flex;
+  align-items: flex-end;
+  padding: 3rem;
+  flex-direction: column;
+  background-color: rgba(24, 23, 23, 0.119);
+  position: relative;
+} */
+
+.bo{
+  margin-bottom: 15px;
+}
 @media (max-width: 567px) {
   .secud{
     padding: 70px 0;
@@ -103,12 +172,37 @@ h1,h2,h3,h4,h5,h6,a{
   .edith1{
     font-size: 34px !important;
   }
+  .incre{
+    font-size: 40px;
+  }
+  .yo1{
+    font-size: 15px !important;
+    padding: 30px 20px 30px 40px !important;
+  }
 }
 
 
 @media(max-width: 768px) {    
   .nodisplay {
     display: none !important;
+  }
+  .secud{
+    padding: 70px 0;
+  }
+  .secd{
+    padding-bottom: 70px;
+  }
+  .secu{
+    padding-top: 70px;
+  }
+  .reduceh2{
+    font-size: 24px !important;
+  }
+  .subi{
+    font-size: 18px !important;
+  }
+  .edith1{
+    font-size: 34px !important;
   }
 }
 
